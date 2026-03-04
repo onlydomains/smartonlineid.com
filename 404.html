@@ -82,16 +82,16 @@
 
     <div class="container">
         <h1>404</h1>
-        <h2>Oops! Page Nahi Mila</h2>
-        <p>Maaf kijiye, jo page aap dhoond rahe hain woh shayad delete ho gaya hai ya uska URL badal gaya hai.</p>
+        <h2>Oops! Page Not Found</h2>
+        <p>Sorry, the page you are looking for may have been removed or its URL has been changed.</p>
         
-        <button onclick="goToHome()" class="home-btn">Main Page Par Jayein</button>
+        <button onclick="goToHome()" class="home-btn">Go to Home Page</button>
     </div>
 
     <script>
         // JS: Redirect to current domain root
         function goToHome() {
-            // window.location.origin aapko seedha main domain (e.g., https://example.com) par le jayega
+            // window.location.origin will take you directly to the main domain (e.g., https://example.com)
             window.location.href = window.location.origin;
         }
     </script>
